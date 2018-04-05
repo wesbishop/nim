@@ -1,4 +1,4 @@
-var pileOfRocks = "@".repeat(16).split('')
+var pileOfRocks = "X".repeat(16).split('')
 var playerTurn = "Player#1";
 var rocksChosen = 0;
 var playingTheGame = true;
