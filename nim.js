@@ -19,7 +19,9 @@ function printRockPile() {
 
 function isWinner(pileOfRocks) {
   if (pileOfRocks.length <= 3) {
-    alert(playerTurn + ' is the winner!');
+    document.writeln(playerTurn + ' is the winner!');
+    console.log(playerTurn + ' is the winner!');
+
     playingTheGame = false;
   }
 }
